@@ -1,3 +1,59 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+/*
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 900
+
+.reddit-sans-condensed-<uniquifier> {
+  font-family: "Reddit Sans Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+  // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.roboto-condensed-<uniquifier> {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+  // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 800
+
+.suse-<uniquifier> {
+  font-family: "SUSE", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+  
+
+*/
+header{
+  background-color: #13293d;
+  display: flex;
+  flex-wrap: wrap;
+  color:white;
+  justify-content: center;
+}
+header h1{
+  text-align :  center;
+  width:100%;
+  margin-top:1%;
+  padding-top:1%;
+  margin-bottom:0px;
+  padding-bottom:0px;
+  font-family: "Reddit Sans Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 3rem;
+  font-style: normal;
+}
 nav {
   display: flex;
   justify-content: center;
@@ -29,4 +85,59 @@ button:active {
 button:focus {
   outline: none;
   border-color: #8ac4ff;
+}
+
+.container{
+  margin:2%;
+  padding:2%;
+
+}
+
+.row{
+  display:flex;
+  justify-content: space-evenly;
+  gap:1%;
+  padding: 1%;
+ margin:1%;
+}
+
+.sidebar{
+  width:25%;
+  border-right: 10px solid rgb(14, 57, 114);
+}
+
+.sidebar h2{
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 2rem;
+  font-style: normal;
+}
+.column{
+  width:70%
+}
+
+#work{
+  display:flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap:5%;
+}
+
+.project{
+  width:45%;
+  position: relative;
+  padding:1%;
+}
+
+.screenshot{
+  width:100%;
+  max-height:30vh;
+}
+
+.project summary{
+  position:absolute;
+  bottom:10px;
+  right:10px;
+  width:40%;
+  background-color: #772014;
 }
